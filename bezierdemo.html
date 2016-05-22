@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="bezierclock.js"></script>
+</head>
+<body onload="init()">
+<div id="bclock"></div>
+</body>
+<script>
+function init() {
+	var bClock = new bezierClock({
+			scale : 0.3,
+			transformationTime : 300,
+			color : 'blue',
+			lineWidth : 3
+		});
+}
+</script>
+</html>
